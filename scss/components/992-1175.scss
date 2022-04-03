@@ -1,0 +1,356 @@
+@media screen and (min-width: 992px) and (max-width: 1175px) {
+    #flexbox {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 46px;
+    }
+    aside {
+        width: 140px;
+        height: 644px;
+        margin-right: 44px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon-logo {
+        width: 120px;
+        height: 120px;
+    }
+    #a-side-menu {
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        color: #34ACA7;
+        line-height: 14px;
+        display: flex;
+        flex-direction: column;
+        & button {
+            font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            color: #34ACA7;
+            background: #FFFFFF;
+            padding: 0;
+            border: 0;
+            display: flex;
+            align-items: flex-start;
+            height: 66px;
+        };
+        & span {
+            margin-left: 13px;
+            margin-top: 13px;
+        };
+    }
+    #tweet {
+        width: 140px;
+        height: 22px;
+        border-bottom: 1px dashed #E5E5E5;
+        margin-bottom: 9px;
+        & span {
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #000000;
+        };
+    }
+    #friends {
+        width: 140px;
+        height: 22px;
+        border-bottom: 1px dashed #E5E5E5;
+        margin-bottom: 9px;
+        & span {
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #000000;
+        };
+    }
+    .btn-tweet {
+        & button {
+            width: 140px;
+            height: 30px;
+            background: #FFFFFF;
+            border: 1px solid #E5E5E5;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        };
+        & span {
+            font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            color: #34ACA7;
+            margin-left: 6px;
+        };
+        & img {
+            width: 16px;
+            height: 13px;
+        };
+    }
+    #weekly-funds {
+        width: 140px;
+        height: 56px;
+        margin-bottom: 15px;
+        & span {
+            font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 19px;
+            color: #000000;
+        };
+    }
+    #baner {
+        background: url("/img/baner.png") #fff no-repeat;
+        height: 160px;
+        width: 712px;
+        padding-top: 285px;
+        & h1 {
+            width: 272px;
+            height: 49px;
+            margin: 0;
+            background: #FFFFFF;
+            font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 0.01em;
+            color: #000000;
+        };
+        & h2 {
+            width: 487px;
+            height: 42px;
+            margin: 0;
+            background: #000000;
+            font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #FFFFFF;
+        };
+    }
+    #btn-main {
+        display: flex;
+        & p {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
+            color: #34ACA7;
+        };
+        & span {
+            display: none;
+        };
+        & button {
+            width: 178px;
+            height: 35px;
+            padding: 0;
+            border: 0;
+            background: #EFF8F7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                background: #D9EFEC;
+            };
+        };
+    }
+    #subscribe {
+        width: 712px;
+        height: 74px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        border-top: 1px dashed #E5E5E5;
+        border-bottom: 1px dashed #E5E5E5;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        & .mail-icon {
+            width: 32px;
+            height: 26px;
+        };
+        & span {
+            width: 363px;
+            height: 41px;
+        };
+        & input {
+            width: 160px;
+            height: 22px;
+            background: #FFFFFF;
+            border: 1px solid #E5E5E5;
+            box-sizing: border-box;
+            font-family: 'Arial';
+            color: #E5E5E5;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 10px;
+        };
+        & button {
+            width: 80px;
+            height: 23px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 10px;
+            text-align: center;
+            color: #000000;
+            background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+            border: 1px solid #E5E5E5;
+            box-sizing: border-box;
+            border-radius: 2px;
+        };
+    }
+    main {
+        width: 712px;
+    }
+    #content {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
+    .cards {
+        width: 159px;
+        display: flex;
+        flex-flow: column wrap;
+        & .beginning {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: -0.02em;
+            color: #34ACA7;
+            text-decoration: none;
+            width: 159px;
+            height: fit-content;
+        };
+        & p {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            color: #000000;
+            width: 159px;
+            height: fit-content;
+            margin-top: 9px;
+            margin-bottom: 11px;
+        };
+        & span {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            color: #E5E5E5;
+            width: 90px;
+            height: fit-content;
+        };
+        & .continue {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            color: #34ACA7;
+            text-decoration: none;
+            width: 44px;
+            height: 20px;
+        };
+        &-img {
+            width: 159px;
+            height: 113px;
+            border: 11px solid #FFFFFF;
+            outline: 1px solid #E5E5E5;
+            box-sizing: border-box;
+            margin-bottom: 11px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & img {
+                min-width: 100%;
+                min-height: 100%;
+                flex-shrink: 0;
+            };
+        };
+    }
+    footer {
+        width: 896px;
+        height: 92px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFFF;
+        border-top: 2px solid #E5E5E5;
+        display: flex;
+        justify-content: space-between;
+        & a {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: -0.02em;
+            color: #34ACA7;
+            text-decoration: none;
+        };
+        & span {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: -0.02em;
+            color: #E5E5E5;
+        };
+    }
+    #footer {
+        &-text {
+            display: flex;
+            align-self: center;
+            flex-flow: column wrap;
+        };
+        &-img {
+            display: flex;
+            align-self: center;
+            & img {
+                width: 32px;
+                height: 32px;
+            };
+        };
+    }
+}

@@ -1,0 +1,1636 @@
+@media screen and (min-width: 992px) and (max-width: 1175px) {
+  #flexbox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
+  }
+
+  aside {
+    width: 140px;
+    height: 644px;
+    margin-right: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  #a-side-menu {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #34ACA7;
+    line-height: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  #a-side-menu button {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #34ACA7;
+    background: #FFFFFF;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+    height: 66px;
+  }
+  #a-side-menu span {
+    margin-left: 13px;
+    margin-top: 13px;
+  }
+
+  #tweet {
+    width: 140px;
+    height: 22px;
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 9px;
+  }
+  #tweet span {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+  }
+
+  #friends {
+    width: 140px;
+    height: 22px;
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 9px;
+  }
+  #friends span {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+  }
+
+  .btn-tweet button {
+    width: 140px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .btn-tweet span {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #34ACA7;
+    margin-left: 6px;
+  }
+  .btn-tweet img {
+    width: 16px;
+    height: 13px;
+  }
+
+  #weekly-funds {
+    width: 140px;
+    height: 56px;
+    margin-bottom: 15px;
+  }
+  #weekly-funds span {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  #baner {
+    background: url("/img/baner.png") #fff no-repeat;
+    height: 160px;
+    width: 712px;
+    padding-top: 285px;
+  }
+  #baner h1 {
+    width: 272px;
+    height: 49px;
+    margin: 0;
+    background: #FFFFFF;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  #baner h2 {
+    width: 487px;
+    height: 42px;
+    margin: 0;
+    background: #000000;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+  }
+
+  #btn-main {
+    display: flex;
+  }
+  #btn-main p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #34ACA7;
+  }
+  #btn-main span {
+    display: none;
+  }
+  #btn-main button {
+    width: 178px;
+    height: 35px;
+    padding: 0;
+    border: 0;
+    background: #EFF8F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #btn-main button:hover {
+    background: #D9EFEC;
+  }
+
+  #subscribe {
+    width: 712px;
+    height: 74px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-top: 1px dashed #E5E5E5;
+    border-bottom: 1px dashed #E5E5E5;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  #subscribe .mail-icon {
+    width: 32px;
+    height: 26px;
+  }
+  #subscribe span {
+    width: 363px;
+    height: 41px;
+  }
+  #subscribe input {
+    width: 160px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    font-family: "Arial";
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #subscribe button {
+    width: 80px;
+    height: 23px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  main {
+    width: 712px;
+  }
+
+  #content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+  }
+
+  .cards {
+    width: 159px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .cards .beginning {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    width: 159px;
+    height: fit-content;
+  }
+  .cards p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 159px;
+    height: fit-content;
+    margin-top: 9px;
+    margin-bottom: 11px;
+  }
+  .cards span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    width: 90px;
+    height: fit-content;
+  }
+  .cards .continue {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    width: 44px;
+    height: 20px;
+  }
+  .cards-img {
+    width: 159px;
+    height: 113px;
+    border: 11px solid #FFFFFF;
+    outline: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    margin-bottom: 11px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards-img img {
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+  }
+
+  footer {
+    width: 896px;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-top: 2px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer a {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+  }
+  footer span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+  }
+
+  #footer-text {
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+  }
+  #footer-img {
+    display: flex;
+    align-self: center;
+  }
+  #footer-img img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media screen and (min-width: 1176px) {
+  #flexbox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
+  }
+
+  aside {
+    width: 140px;
+    height: 644px;
+    margin-right: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  #a-side-menu {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #34ACA7;
+    line-height: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  #a-side-menu button {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #34ACA7;
+    background: #FFFFFF;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+    height: 66px;
+  }
+  #a-side-menu span {
+    margin-left: 13px;
+    margin-top: 13px;
+  }
+
+  #tweet {
+    width: 140px;
+    height: 22px;
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 9px;
+  }
+  #tweet span {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+  }
+
+  #friends {
+    width: 140px;
+    height: 22px;
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 9px;
+  }
+  #friends span {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+  }
+
+  .btn-tweet button {
+    width: 140px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .btn-tweet span {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #34ACA7;
+    margin-left: 6px;
+  }
+  .btn-tweet img {
+    width: 16px;
+    height: 13px;
+  }
+
+  #weekly-funds {
+    width: 140px;
+    height: 56px;
+    margin-bottom: 15px;
+  }
+  #weekly-funds span {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  #baner {
+    background: url("/img/baner.png") #fff no-repeat;
+    height: 160px;
+    width: 896px;
+    padding-top: 285px;
+  }
+  #baner h1 {
+    width: 272px;
+    height: 49px;
+    margin: 0;
+    background: #FFFFFF;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  #baner h2 {
+    width: 487px;
+    height: 42px;
+    margin: 0;
+    background: #000000;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+  }
+
+  #btn-main {
+    display: flex;
+  }
+  #btn-main p {
+    margin: 0;
+    margin-left: 20px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #34ACA7;
+    display: flex;
+  }
+  #btn-main span {
+    margin: 0;
+    margin-left: 20px;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    color: #34ACA7;
+    display: flex;
+  }
+  #btn-main button {
+    width: 224px;
+    height: 85px;
+    padding: 0;
+    border: 0;
+    background: #EFF8F7;
+  }
+  #btn-main button:hover {
+    background: #D9EFEC;
+  }
+
+  #subscribe {
+    width: 896px;
+    height: 51px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    margin-bottom: 29px;
+    border-top: 1px dashed #E5E5E5;
+    border-bottom: 1px dashed #E5E5E5;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  #subscribe .mail-icon {
+    width: 32px;
+    height: 26px;
+  }
+  #subscribe span {
+    width: 530px;
+    height: 32px;
+  }
+  #subscribe input {
+    width: 160px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    font-family: "Arial";
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #subscribe button {
+    width: 80px;
+    height: 23px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  #content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cards {
+    width: 207px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .cards .beginning {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    height: fit-content;
+  }
+  .cards p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 207px;
+    height: fit-content;
+    margin-top: 9px;
+    margin-bottom: 11px;
+  }
+  .cards span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    width: 90px;
+    height: fit-content;
+  }
+  .cards .continue {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    width: 44px;
+    height: 20px;
+  }
+  .cards-img {
+    width: 207px;
+    height: 143px;
+    border: 11px solid #FFFFFF;
+    outline: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    margin-bottom: 11px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards-img img {
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+  }
+
+  footer {
+    width: 1088px;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-top: 2px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer a {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+  }
+  footer span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+  }
+
+  #footer-text {
+    display: flex;
+    align-self: center;
+    margin-left: 8px;
+    flex-flow: column wrap;
+  }
+  #footer-img {
+    display: flex;
+    align-self: center;
+    margin-right: 8px;
+  }
+  #footer-img img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  aside {
+    width: 710px;
+    height: 160px;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #flexbox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .icon-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  #a-side-menu {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #34ACA7;
+    line-height: 14px;
+    display: flex;
+    flex-direction: row;
+  }
+  #a-side-menu button {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #34ACA7;
+    background: #FFFFFF;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 62px;
+  }
+
+  #tweet {
+    display: none;
+  }
+
+  #friends {
+    display: none;
+  }
+
+  #weekly-funds {
+    display: none;
+  }
+
+  .btn-tweet form {
+    display: none;
+  }
+
+  #baner {
+    background: url("/img/baner.png") #fff no-repeat;
+    height: 158px;
+    width: 712px;
+    padding-top: 287px;
+  }
+  #baner h1 {
+    width: 269px;
+    height: 47px;
+    margin: 0;
+    background: #FFFFFF;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  #baner h2 {
+    width: 481px;
+    height: 42px;
+    margin: 0;
+    background: #000000;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+  }
+
+  main {
+    height: 1000px;
+    margin-bottom: 31px;
+  }
+
+  #btn-main {
+    display: flex;
+  }
+  #btn-main p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #34ACA7;
+  }
+  #btn-main span {
+    display: none;
+  }
+  #btn-main button {
+    width: 178px;
+    height: 35px;
+    padding: 0;
+    border: 0;
+    background: #EFF8F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #btn-main button:hover {
+    background: #D9EFEC;
+  }
+
+  #subscribe {
+    width: 712px;
+    height: 74px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-top: 1px dashed #E5E5E5;
+    border-bottom: 1px dashed #E5E5E5;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  #subscribe .mail-icon {
+    width: 32px;
+    height: 26px;
+  }
+  #subscribe span {
+    width: 363px;
+    height: 41px;
+  }
+  #subscribe input {
+    width: 160px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    font-family: "Arial";
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #subscribe button {
+    width: 80px;
+    height: 23px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  #content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cards {
+    width: 157px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .cards .beginning {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    height: fit-content;
+  }
+  .cards p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    height: fit-content;
+  }
+  .cards span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    width: 90px;
+    height: fit-content;
+  }
+  .cards .continue {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    width: 44px;
+    height: 20px;
+  }
+  .cards-img {
+    width: 157px;
+    height: 113px;
+    border: 11px solid #FFFFFF;
+    outline: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .cards-img img {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  footer {
+    width: 716px;
+    height: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-top: 2px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer a {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+  }
+  footer span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+  }
+
+  #footer-text {
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+  }
+  #footer-img {
+    display: flex;
+    align-self: center;
+  }
+  #footer-img img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  #flexbox {
+    width: 561px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  aside {
+    width: 561px;
+    height: 162px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .icon-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  #a-side-menu {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #34ACA7;
+    line-height: 14px;
+    width: 561px;
+    height: 162px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #a-side-menu img {
+    display: none;
+  }
+  #a-side-menu button {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #34ACA7;
+    background: #FFFFFF;
+    padding: 0;
+    border: 0;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  #tweet {
+    display: none;
+  }
+
+  #friends {
+    display: none;
+  }
+
+  #weekly-funds {
+    display: none;
+  }
+
+  .btn-tweet form {
+    display: none;
+  }
+
+  #baner {
+    background: url("/img/baner.png") #fff no-repeat;
+    height: 91px;
+    width: 545px;
+    padding-top: 287px;
+    margin: 0;
+  }
+  #baner h1 {
+    width: 535px;
+    height: 49px;
+    margin: 0;
+    background: #FFFFFF;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    opacity: 0.6;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  #baner h2 {
+    width: 521px;
+    height: 42px;
+    margin: 0;
+    background: #000000;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  main {
+    height: 1210px;
+    margin-bottom: 20px;
+  }
+
+  #btn-main {
+    display: none;
+  }
+
+  #subscribe {
+    width: 545px;
+    height: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 39px;
+    margin-bottom: 26px;
+    border-top: 1px dashed #E5E5E5;
+    border-bottom: 1px dashed #E5E5E5;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  #subscribe .mail-icon {
+    width: 32px;
+    height: 26px;
+  }
+  #subscribe span {
+    width: 471px;
+    height: fit-content;
+  }
+  #subscribe input {
+    width: 420px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    font-family: "Arial";
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #subscribe button {
+    width: 80px;
+    height: 23px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  #content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .cards {
+    width: 256px;
+    height: 337px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .cards .beginning {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    height: fit-content;
+  }
+  .cards p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    height: 135px;
+    align-self: flex-start;
+  }
+  .cards span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    width: 90px;
+    height: fit-content;
+  }
+  .cards .continue {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    width: 44px;
+    height: 20px;
+  }
+  .cards-img {
+    width: 256px;
+    height: 150px;
+    border: 11px solid #FFFFFF;
+    outline: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+  }
+  .cards-img img {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  footer {
+    width: 560px;
+    height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-top: 2px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer a {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+  }
+  footer span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+  }
+
+  #footer-text {
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+  }
+  #footer-img {
+    display: flex;
+    align-self: center;
+  }
+  #footer-img img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #flexbox {
+    width: 479px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  aside {
+    width: 479px;
+    height: 238px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .icon-logo {
+    width: 120px;
+    height: 120px;
+    order: 1;
+  }
+
+  #a-side-menu {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #34ACA7;
+    line-height: 14px;
+    width: 479px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #a-side-menu img {
+    display: none;
+  }
+  #a-side-menu button {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #34ACA7;
+    background: #FFFFFF;
+    padding: 0;
+    border: 0;
+    width: 90px;
+    height: 20px;
+    align-items: center;
+  }
+
+  #tweet {
+    display: none;
+  }
+
+  #friends {
+    display: none;
+  }
+
+  #weekly-funds {
+    display: none;
+  }
+
+  .btn-tweet form {
+    display: none;
+  }
+
+  #baner {
+    background: url("/img/baner.png") #fff no-repeat;
+    height: 92px;
+    width: 480px;
+    padding-top: 286px;
+    margin: 0;
+  }
+  #baner h1 {
+    width: 480px;
+    height: 49px;
+    margin: 0;
+    background: #FFFFFF;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    opacity: 0.6;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  #baner h2 {
+    width: 480px;
+    height: 42px;
+    margin: 0;
+    background: #000000;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  #btn-main {
+    display: none;
+  }
+
+  #subscribe {
+    width: 480px;
+    height: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 29px;
+    border-top: 1px dashed #E5E5E5;
+    border-bottom: 1px dashed #E5E5E5;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  #subscribe .mail-icon {
+    width: 32px;
+    height: 26px;
+  }
+  #subscribe span {
+    width: 366px;
+    height: fit-content;
+  }
+  #subscribe input {
+    width: 312px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    font-family: "Arial";
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #subscribe button {
+    width: 80px;
+    height: 23px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  #content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .cards {
+    width: 375px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .cards .beginning {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    height: fit-content;
+  }
+  .cards p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    height: fit-content;
+    align-self: flex-start;
+  }
+  .cards span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    width: 90px;
+    height: fit-content;
+  }
+  .cards .continue {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+    width: 44px;
+    height: 20px;
+  }
+  .cards-img {
+    width: 375px;
+    height: 200px;
+    border: 11px solid #FFFFFF;
+    outline: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+  }
+  .cards-img img {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  footer {
+    width: 429px;
+    height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+    border-top: 2px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+  }
+  footer a {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+    text-decoration: none;
+  }
+  footer span {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+  }
+
+  #footer-text {
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+  }
+  #footer-img {
+    display: flex;
+    align-self: center;
+  }
+  #footer-img img {
+    width: 32px;
+    height: 32px;
+  }
+}
